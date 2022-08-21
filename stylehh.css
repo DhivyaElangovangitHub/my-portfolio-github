@@ -1,0 +1,51 @@
+*{
+    margin-top: 20px;        
+    background: linear-gradient(to right , #ec008c,#fc6767); 
+ }
+.container{
+    width:1000px;
+    height: 100px;
+    margin-left: 90px;
+    
+    
+}
+ p{
+    color:beige;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 60;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.02em;
+    word-spacing: 0.2em;
+}
+#imgid{
+   height:100px;
+   width: 100px;
+   margin-left: 1165px;
+   padding-top: 320px;
+   
+   background: none;
+}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px){
+    *{
+        margin-top: 20px;        
+        background:#fc6767; 
+     }
+    .container{
+        width:350px;
+        height: 100px;
+        
+        
+        
+    }
+     p{
+        color:beige;
+        text-align: justify;
+        margin-top: 50px;
+        font-size: 33px;
+        font-weight: 50;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+}
